@@ -30,7 +30,7 @@ document.addEventListener("keydown", (event) => {
 window.addEventListener(
   "scroll",
   () => header.classList.toggle("is-scrolled", window.scrollY > 24),
-  { passive: true }
+  { passive: true },
 );
 
 const activateTab = (tabs, panels, selectedTab, focusTab = false) => {
@@ -107,7 +107,7 @@ filterButtons.forEach((button) => {
 
     capabilityRegion.setAttribute(
       "aria-label",
-      `${visibleCount} product capabilities shown`
+      `${visibleCount} product capabilities shown`,
     );
   });
 });
@@ -127,7 +127,7 @@ if (reducedMotion.matches || !("IntersectionObserver" in window)) {
         }
       });
     },
-    { threshold: 0.12, rootMargin: "0px 0px -40px" }
+    { threshold: 0.12, rootMargin: "0px 0px -40px" },
   );
 
   revealElements.forEach((element) => revealObserver.observe(element));
