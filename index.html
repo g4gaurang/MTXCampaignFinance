@@ -77,10 +77,9 @@
               From the first filing to a clearer public record.
             </h1>
             <p class="hero-lede">
-              MTX Elections Campaign Finance brings filers, reviewers,
-              compliance teams, and the public into one configurable digital
-              product—so agencies can move work forward with context, control,
-              and a defensible record.
+              MTX Elections Campaign Finance connects filer registration,
+              disclosure reports, financial transactions, agency review,
+              compliance, and public search in one configurable digital product.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#lifecycle"
@@ -98,7 +97,7 @@
                 <span aria-hidden="true">✓</span> Accessible digital services
               </li>
               <li>
-                <span aria-hidden="true">✓</span> Traceable staff decisions
+                <span aria-hidden="true">✓</span> Traceable filing history
               </li>
             </ul>
           </div>
@@ -121,35 +120,35 @@
               <li class="complete">
                 <span class="step-icon" aria-hidden="true">✓</span>
                 <div>
-                  <strong>Intake validated</strong
-                  ><small>Required fields and format checks</small>
+                  <strong>Filing submitted</strong
+                  ><small>Report received with filer attestation</small>
                 </div>
               </li>
               <li class="complete">
                 <span class="step-icon" aria-hidden="true">✓</span>
                 <div>
-                  <strong>Documents connected</strong
-                  ><small>Supporting records routed to case</small>
+                  <strong>Transactions validated</strong
+                  ><small>Required fields, totals, and limits checked</small>
                 </div>
               </li>
               <li class="active">
                 <span class="step-icon" aria-hidden="true">3</span>
                 <div>
-                  <strong>Review queued</strong
-                  ><small>Assigned by role and workload</small>
+                  <strong>Exceptions identified</strong
+                  ><small>Potential deficiencies routed for review</small>
                 </div>
               </li>
               <li>
                 <span class="step-icon" aria-hidden="true">4</span>
                 <div>
-                  <strong>Decision pending</strong
-                  ><small>Authorized staff action required</small>
+                  <strong>Disclosure status pending</strong
+                  ><small>Authorized staff review required</small>
                 </div>
               </li>
             </ol>
             <div class="console-footer">
               <span>One connected record</span>
-              <span>Intake · Review · Disclosure</span>
+              <span>Filer · Transactions · Report · Disclosure</span>
             </div>
           </aside>
         </div>
@@ -245,14 +244,15 @@
               <div class="challenge-icon" aria-hidden="true">⌁</div>
               <h3>Fragmented records and rekeying</h3>
               <p>
-                Separate portals, inboxes, spreadsheets, and case tools make
-                status difficult to follow and introduce repeat entry.
+                Separate filing portals, inboxes, spreadsheets, and review
+                systems make status difficult to follow and introduce repeat
+                entry.
               </p>
               <div class="response">
                 <span>MTX response</span
                 ><strong
-                  >A shared filer, filing, document, review, and case
-                  record.</strong
+                  >A shared filer, committee, report, transaction, amendment,
+                  audit, and enforcement record.</strong
                 >
               </div>
             </article>
@@ -261,14 +261,14 @@
               <div class="challenge-icon" aria-hidden="true">⌛</div>
               <h3>Deadline-driven volume</h3>
               <p>
-                Late-cycle surges place pressure on intake, validation, review
-                queues, notices, and public publishing.
+                Late-cycle surges place pressure on transaction ingestion,
+                validation, review queues, notices, and public publishing.
               </p>
               <div class="response">
                 <span>MTX response</span
                 ><strong
-                  >Elastic digital intake, guided queues, and deadline-aware
-                  routing.</strong
+                  >Elastic electronic filing, guided queues, and deadline-aware
+                  processing.</strong
                 >
               </div>
             </article>
@@ -277,14 +277,15 @@
               <div class="challenge-icon" aria-hidden="true">△</div>
               <h3>Incomplete or inaccurate filings</h3>
               <p>
-                Blank, erroneous, or unfamiliar form entries can slow review and
-                reduce the usefulness of disclosed data.
+                Missing contributor details, inconsistent totals, and
+                misclassified transactions can slow review and reduce the
+                usefulness of disclosed data.
               </p>
               <div class="response">
                 <span>MTX response</span
                 ><strong
-                  >Inline guidance, configurable validation, and correction
-                  workflows.</strong
+                  >Inline guidance, transaction-level validation, and linked
+                  amendment workflows.</strong
                 >
               </div>
             </article>
@@ -309,14 +310,14 @@
               <div class="challenge-icon" aria-hidden="true">◫</div>
               <h3>Opaque public search</h3>
               <p>
-                Static documents and difficult search experiences can limit
-                timely use by residents, media, and researchers.
+                Static reports and limited transaction search can hinder timely
+                use by residents, media, and researchers.
               </p>
               <div class="response">
                 <span>MTX response</span
                 ><strong
-                  >Accessible search, public verification, exports, and open
-                  APIs.</strong
+                  >Accessible disclosure search, bulk downloads, visualizations,
+                  and open APIs.</strong
                 >
               </div>
             </article>
@@ -393,7 +394,7 @@
                 tabindex="0"
                 data-stage="1"
               >
-                <span>01</span>Apply
+                <span>01</span>Register
               </button>
               <button
                 id="stage-tab-2"
@@ -405,7 +406,7 @@
                 tabindex="-1"
                 data-stage="2"
               >
-                <span>02</span>Review
+                <span>02</span>File
               </button>
               <button
                 id="stage-tab-3"
@@ -417,7 +418,7 @@
                 tabindex="-1"
                 data-stage="3"
               >
-                <span>03</span>Issue
+                <span>03</span>Review
               </button>
               <button
                 id="stage-tab-4"
@@ -429,7 +430,7 @@
                 tabindex="-1"
                 data-stage="4"
               >
-                <span>04</span>Monitor
+                <span>04</span>Comply
               </button>
               <button
                 id="stage-tab-5"
@@ -460,22 +461,22 @@
                     <div class="form-line wide"></div>
                     <div class="form-line"></div>
                     <div class="form-line short"></div>
-                    <div class="upload-chip">Document received <b>✓</b></div>
+                    <div class="upload-chip">Filer ID assigned <b>✓</b></div>
                   </div>
                 </div>
                 <div class="stage-copy">
-                  <p class="stage-label">Guided digital intake</p>
-                  <h3>Help filers begin with the right path.</h3>
+                  <p class="stage-label">Filer and committee registration</p>
+                  <h3>Establish who files, where, and on what schedule.</h3>
                   <p>
-                    Dynamic applications adapt to filer type and jurisdiction,
-                    accept payments where required, and connect uploaded
-                    documents to the submission record.
+                    Guided registration adapts to filer type, jurisdiction,
+                    election, committee structure, and applicable reporting
+                    obligations.
                   </p>
                   <ul>
-                    <li>Guided registration and digital applications</li>
-                    <li>Fee and fine payment intake</li>
-                    <li>Document upload, classification, and routing</li>
-                    <li>Save, resume, validation, and status</li>
+                    <li>Candidate, committee, party, and PAC registration</li>
+                    <li>Treasurer and authorized-user designation</li>
+                    <li>Filer ID assignment and account activation</li>
+                    <li>Election, jurisdiction, and calendar association</li>
                   </ul>
                 </div>
               </article>
@@ -492,25 +493,23 @@
                     <span></span><span></span><span></span>
                   </div>
                   <div class="review-card">
-                    <b>Review queue</b><i>8 due soon</i
-                    ><em>Assigned by role</em>
+                    <b>Disclosure report</b><i>8 items due</i
+                    ><em>Transactions in balance</em>
                   </div>
                 </div>
                 <div class="stage-copy">
-                  <p class="stage-label">Application and filing review</p>
-                  <h3>
-                    Give reviewers the record and policy context together.
-                  </h3>
+                  <p class="stage-label">Electronic filing and reporting</p>
+                  <h3>Capture financial activity in structured reports.</h3>
                   <p>
-                    Role-based work queues connect forms, transactions,
-                    documents, correspondence, and prior activity while
-                    recording findings and staff actions.
+                    Filers report contributions, receipts, expenditures, loans,
+                    debts, in-kind activity, transfers, and refunds against the
+                    correct schedule.
                   </p>
                   <ul>
-                    <li>Configurable checklists and review paths</li>
-                    <li>Workload and deadline routing</li>
-                    <li>Deficiency notices and filer responses</li>
-                    <li>Assistive document review with staff verification</li>
+                    <li>Periodic, pre-election, and post-election reports</li>
+                    <li>24- and 48-hour reports where applicable</li>
+                    <li>Save, resume, attest, submit, and receive confirmation</li>
+                    <li>Attachments, schedules, and supporting records</li>
                   </ul>
                 </div>
               </article>
@@ -522,26 +521,27 @@
                 tabindex="0"
                 hidden
               >
-                <div class="stage-visual issue-visual" aria-hidden="true">
+                <div class="stage-visual validation-visual" aria-hidden="true">
                   <div class="seal-ring"><span>✓</span></div>
-                  <div class="issue-lines">
-                    <b>Decision recorded</b><span>Authority · Date · Basis</span
-                    ><em>Notice ready</em>
+                  <div class="validation-lines">
+                    <b>Validation completed</b
+                    ><span>Rules · Totals · Filing history</span
+                    ><em>Review ready</em>
                   </div>
                 </div>
                 <div class="stage-copy">
-                  <p class="stage-label">Issuance and change management</p>
-                  <h3>Turn authorized decisions into traceable next steps.</h3>
+                  <p class="stage-label">Validation and agency review</p>
+                  <h3>Focus staff attention on filings that need review.</h3>
                   <p>
-                    Staff decisions trigger configured issuance, notices,
-                    renewal schedules, amendment paths, and public status
-                    updates.
+                    Configured rules check completeness, mathematical
+                    consistency, aggregation, limits, and filing history before
+                    role-based agency review.
                   </p>
                   <ul>
-                    <li>Decision and approval recording</li>
-                    <li>Credential or registration issuance</li>
-                    <li>Renewals, amendments, and closure</li>
-                    <li>Versioned notices and correspondence</li>
+                    <li>Blocking errors, warnings, and potential exceptions</li>
+                    <li>Review queues and audit selection</li>
+                    <li>Deficiency notices and filer responses</li>
+                    <li>Amendments, linked versions, and correction history</li>
                   </ul>
                 </div>
               </article>
@@ -566,13 +566,13 @@
                   <p>
                     Configured calendars and rules surface late, incomplete, or
                     potentially noncompliant activity for authorized staff to
-                    inspect, investigate, and resolve.
+                    audit, investigate, and resolve.
                   </p>
                   <ul>
-                    <li>Inspections and complaint intake</li>
                     <li>Compliance calendars and alerts</li>
-                    <li>Investigation and enforcement cases</li>
-                    <li>Findings, penalties, payments, and appeals</li>
+                    <li>Audits, complaints, and investigations</li>
+                    <li>Late or missing filings and potential violations</li>
+                    <li>Findings, penalties, hearings, appeals, and closure</li>
                   </ul>
                 </div>
               </article>
@@ -592,18 +592,18 @@
                   <div class="api-chip">{ API }</div>
                 </div>
                 <div class="stage-copy">
-                  <p class="stage-label">Public verification and insight</p>
-                  <h3>Publish records people can find and use.</h3>
+                  <p class="stage-label">Public disclosure and transparency</p>
+                  <h3>Publish financial activity people can find and use.</h3>
                   <p>
                     A responsive public experience supports plain-language
-                    lookup, advanced search, verification, downloads, and API
-                    access.
+                    lookup, transaction-level search, filing history,
+                    downloads, and API access.
                   </p>
                   <ul>
-                    <li>Public record and status verification</li>
-                    <li>Searchable filings and transactions</li>
-                    <li>Accessible dashboards and exports</li>
-                    <li>Documented data APIs</li>
+                    <li>Candidate, committee, and contributor search</li>
+                    <li>Contributions, expenditures, and filing history</li>
+                    <li>Enforcement records, dashboards, and exports</li>
+                    <li>Bulk downloads and documented public APIs</li>
                   </ul>
                 </div>
               </article>
@@ -671,19 +671,20 @@
             <article class="capability-card reveal" data-category="filer">
               <span>01</span>
               <div class="cap-icon" aria-hidden="true">▤</div>
-              <h3>Digital applications</h3>
+              <h3>Filer &amp; committee registration</h3>
               <p>
-                Guided, conditional forms with validation, save-and-resume,
-                attestation, and submission history.
+                Candidates, candidate and ballot committees, PACs, parties,
+                independent spenders, treasurers, filer IDs, jurisdictions, and
+                elections.
               </p>
             </article>
             <article class="capability-card reveal" data-category="filer">
               <span>02</span>
-              <div class="cap-icon" aria-hidden="true">$</div>
-              <h3>Payments</h3>
+              <div class="cap-icon" aria-hidden="true">⇧</div>
+              <h3>Electronic filing &amp; reporting</h3>
               <p>
-                Configured fees, fines, refunds, receipts, payment status, and
-                financial-system handoffs.
+                Guided filing, save and resume, attestations, scheduled and
+                special reports, attachments, and submission receipts.
               </p>
             </article>
             <article
@@ -691,20 +692,23 @@
               data-category="filer operations"
             >
               <span>03</span>
-              <div class="cap-icon" aria-hidden="true">⇧</div>
-              <h3>Documents</h3>
+              <div class="cap-icon" aria-hidden="true">＋</div>
+              <h3>Contributions &amp; receipts</h3>
               <p>
-                Upload, classify, version, route, preview, and retain supporting
-                material with its record.
+                Monetary and in-kind contributions, contributor details,
+                aggregation, source information, refunds, and transfers.
               </p>
             </article>
-            <article class="capability-card reveal" data-category="operations">
+            <article
+              class="capability-card reveal"
+              data-category="filer operations"
+            >
               <span>04</span>
-              <div class="cap-icon" aria-hidden="true">✓</div>
-              <h3>Review and issuance</h3>
+              <div class="cap-icon" aria-hidden="true">−</div>
+              <h3>Expenditures, loans &amp; debts</h3>
               <p>
-                Role-based queues, checklists, findings, approvals, issuance,
-                notices, and decision history.
+                Disbursements, vendors, purposes, reimbursements, loans,
+                outstanding obligations, and repayments.
               </p>
             </article>
             <article
@@ -712,20 +716,23 @@
               data-category="filer operations"
             >
               <span>05</span>
-              <div class="cap-icon" aria-hidden="true">↻</div>
-              <h3>Renewals and amendments</h3>
+              <div class="cap-icon" aria-hidden="true">✓</div>
+              <h3>Rules &amp; automated validation</h3>
               <p>
-                Effective-dated changes, linked versions, review routing, and
-                updated public status.
+                Contribution limits, prohibited sources, thresholds, required
+                fields, mathematical checks, and jurisdiction rules.
               </p>
             </article>
-            <article class="capability-card reveal" data-category="operations">
+            <article
+              class="capability-card reveal"
+              data-category="filer operations"
+            >
               <span>06</span>
-              <div class="cap-icon" aria-hidden="true">⌕</div>
-              <h3>Inspections</h3>
+              <div class="cap-icon" aria-hidden="true">◷</div>
+              <h3>Filing calendar &amp; notifications</h3>
               <p>
-                Scheduling, field notes, evidence, findings, follow-up actions,
-                and supervisor review.
+                Periodic, pre- and post-election, and expedited reports with
+                deadlines, reminders, and late-filing alerts.
               </p>
             </article>
             <article
@@ -733,41 +740,42 @@
               data-category="filer operations"
             >
               <span>07</span>
-              <div class="cap-icon" aria-hidden="true">!</div>
-              <h3>Complaints</h3>
+              <div class="cap-icon" aria-hidden="true">↻</div>
+              <h3>Amendments &amp; filing history</h3>
               <p>
-                Accessible intake, confidential handling options, triage,
-                assignment, and status communication.
+                Corrected reports and transactions, linked versions,
+                registration updates, termination filings, and historical
+                disclosure.
               </p>
             </article>
             <article class="capability-card reveal" data-category="operations">
               <span>08</span>
-              <div class="cap-icon" aria-hidden="true">⚖</div>
-              <h3>Compliance and enforcement</h3>
+              <div class="cap-icon" aria-hidden="true">⌕</div>
+              <h3>Agency review &amp; audit</h3>
               <p>
-                Deadlines, exceptions, investigations, remedies, penalties,
-                appeals, and case closure.
+                Review queues, deficiency notices, audit selection, supporting
+                records, filer responses, transaction testing, and findings.
               </p>
             </article>
-            <article class="capability-card reveal" data-category="public">
+            <article class="capability-card reveal" data-category="operations">
               <span>09</span>
-              <div class="cap-icon" aria-hidden="true">◎</div>
-              <h3>Public verification</h3>
+              <div class="cap-icon" aria-hidden="true">⚖</div>
+              <h3>Compliance &amp; enforcement</h3>
               <p>
-                Plain-language lookup, advanced search, status verification,
-                documents, and data exports.
+                Where authorized: complaints, investigations, late or missing
+                reports, violations, penalties, hearings, appeals, and closure.
               </p>
             </article>
             <article
               class="capability-card reveal"
-              data-category="operations public"
+              data-category="public"
             >
               <span>10</span>
-              <div class="cap-icon" aria-hidden="true">▥</div>
-              <h3>Dashboards</h3>
+              <div class="cap-icon" aria-hidden="true">◎</div>
+              <h3>Public disclosure &amp; search</h3>
               <p>
-                Role-aware operational views for deadlines, inventory, workload,
-                timeliness, and trends.
+                Candidates, committees, contributors, transactions, filings,
+                enforcement records, downloads, and visualizations.
               </p>
             </article>
             <article
@@ -775,20 +783,20 @@
               data-category="operations public"
             >
               <span>11</span>
-              <div class="cap-icon" aria-hidden="true">{ }</div>
-              <h3>APIs and data exchange</h3>
+              <div class="cap-icon" aria-hidden="true">▥</div>
+              <h3>Analytics &amp; open data</h3>
               <p>
-                Versioned APIs, events, secure batch exchange, data validation,
-                and published documentation.
+                Agency dashboards, disclosure analytics, bulk downloads,
+                versioned APIs, metadata, and public datasets.
               </p>
             </article>
             <article class="capability-card reveal" data-category="operations">
               <span>12</span>
               <div class="cap-icon" aria-hidden="true">⌘</div>
-              <h3>Agency-system integration</h3>
+              <h3>Integrations &amp; administration</h3>
               <p>
-                Connections to systems of record, identity, finance, content,
-                notification, and analytics services.
+                Identity, elections data, payment processing, notifications,
+                financial systems, document services, and configuration.
               </p>
             </article>
           </div>
@@ -908,8 +916,8 @@
                     <div>
                       <strong>Connected submission</strong>
                       <p>
-                        Forms, transactions, documents, payments, messages, and
-                        receipts in one history.
+                        Reports, contributions, expenditures, loans, debts,
+                        attachments, attestations, and receipts in one history.
                       </p>
                     </div>
                   </li>
@@ -953,18 +961,18 @@
                     <div>
                       <strong>Guided review</strong>
                       <p>
-                        Configured checklists, comparison views, findings, and
-                        correspondence.
+                        Validation exceptions, filing comparisons, transaction
+                        testing, deficiency findings, and correspondence.
                       </p>
                     </div>
                   </li>
                   <li>
                     <span aria-hidden="true">03</span>
                     <div>
-                      <strong>Defensible case history</strong>
+                      <strong>Defensible review and audit history</strong>
                       <p>
-                        Evidence, staff activity, approvals, notices, and
-                        outcome basis in sequence.
+                        Audit evidence, filer responses, staff activity,
+                        notices, findings, and outcome basis in sequence.
                       </p>
                     </div>
                   </li>
@@ -987,8 +995,8 @@
                     <div>
                       <strong>Operational inventory</strong>
                       <p>
-                        Current volume, aging, status, exceptions, and assigned
-                        workload.
+                        Filing status, late reports, amendments, validation
+                        exceptions, audit inventory, penalties, and workload.
                       </p>
                     </div>
                   </li>
@@ -997,8 +1005,8 @@
                     <div>
                       <strong>Cycle readiness</strong>
                       <p>
-                        Submission patterns, capacity indicators, rule
-                        readiness, and unresolved dependencies.
+                        Filing schedules, transaction volume, capacity
+                        indicators, rule readiness, and unresolved dependencies.
                       </p>
                     </div>
                   </li>
@@ -1031,8 +1039,8 @@
                     <div>
                       <strong>Approachable search</strong>
                       <p>
-                        Simple lookup for common questions with advanced filters
-                        when needed.
+                        Search candidates, committees, contributors, receipts,
+                        expenditures, filings, and enforcement records.
                       </p>
                     </div>
                   </li>
@@ -1041,8 +1049,8 @@
                     <div>
                       <strong>Record context</strong>
                       <p>
-                        Filer, filing, transaction, document, status, and
-                        amendment relationships.
+                        Filer, committee, report, transaction, amendment,
+                        termination, and filing-history relationships.
                       </p>
                     </div>
                   </li>
@@ -1102,26 +1110,26 @@
                 ><small>Submitted by due date</small>
               </article>
               <article>
-                <span>Processing timeliness</span><strong>—</strong
-                ><small>Processed within target</small>
+                <span>Amendment activity</span><strong>—</strong
+                ><small>Reports amended by filing type</small>
               </article>
               <article>
-                <span>First-pass quality</span><strong>—</strong
-                ><small>Accepted without correction</small>
+                <span>Validation quality</span><strong>—</strong
+                ><small>Exceptions per reported transaction</small>
               </article>
               <article>
-                <span>Public data availability</span><strong>—</strong
-                ><small>Receipt to publication</small>
+                <span>Audit inventory</span><strong>—</strong
+                ><small>Open audits by age and status</small>
               </article>
             </div>
             <div class="chart-row">
               <article class="chart-card volume-chart">
                 <div class="chart-title">
                   <div>
-                    <span>Submission and review volume</span
+                    <span>Filing and transaction volume</span
                     ><strong>Cycle trend</strong>
                   </div>
-                  <span class="legend"><i></i>Received <i></i>Completed</span>
+                  <span class="legend"><i></i>Filed <i></i>Published</span>
                 </div>
                 <div class="line-chart" aria-hidden="true">
                   <div class="grid-lines">
@@ -1198,12 +1206,12 @@
             <div class="recommended-row">
               <strong>Recommended operational views</strong>
               <ul>
-                <li>Inventory and aging</li>
+                <li>Late and missing filings</li>
                 <li>Deadline readiness</li>
-                <li>Reviewer workload</li>
-                <li>Deficiency patterns</li>
-                <li>Complaint resolution</li>
-                <li>API availability</li>
+                <li>Contribution and expenditure trends</li>
+                <li>Validation and amendment patterns</li>
+                <li>Audit and enforcement inventory</li>
+                <li>Penalties and public-data availability</li>
               </ul>
             </div>
           </div>
@@ -1233,7 +1241,8 @@
                 <div>
                   <strong>Configure policy</strong>
                   <p>
-                    Forms, rules, calendars, roles, notices, and review paths.
+                    Report types, transaction rules, limits, calendars, roles,
+                    notices, and review paths.
                   </p>
                 </div>
               </li>
@@ -1279,7 +1288,8 @@
               <div>
                 <span>MTX product services</span
                 ><strong
-                  >Intake · Review · Cases · Disclosure · Analytics</strong
+                  >Registration · Filing · Validation · Compliance ·
+                  Disclosure</strong
                 >
               </div>
               <div class="layer-symbols" aria-hidden="true">
@@ -1301,8 +1311,8 @@
               <div>
                 <span>Agency ecosystem</span
                 ><strong
-                  >Systems of record · Finance · Content · Notifications ·
-                  Data</strong
+                  >Elections data · Identity · Payments · Notifications · Open
+                  data</strong
                 >
               </div>
               <div class="layer-symbols" aria-hidden="true">
@@ -1327,9 +1337,11 @@
             </h2>
             <p>
               MTX Elections Campaign Finance can use assistive AI to help
-              organize intake, extract document text, compare submitted
-              material, offer contextual guidance, and suggest triage. Outputs
-              are presented for review—not treated as agency decisions.
+              classify supporting records, extract document text, identify
+              missing contributor details, compare amendments, surface
+              transaction anomalies, draft deficiency language, and suggest
+              triage. Outputs are presented for review—not treated as agency
+              decisions.
             </p>
             <div class="ai-boundary">
               <span aria-hidden="true">⚖</span>
@@ -1369,7 +1381,7 @@
                 <span class="phase-intent">Align · Configure · Connect</span>
                 <ul>
                   <li>Product and policy discovery</li>
-                  <li>Core data and role model</li>
+                  <li>Filer, report, and transaction data model</li>
                   <li>Identity and priority integrations</li>
                   <li>Migration and release controls</li>
                 </ul>
@@ -1379,13 +1391,13 @@
               <div class="phase-marker"><span>2</span></div>
               <div class="phase-card">
                 <p>Digital service</p>
-                <h3>Launch intake and review</h3>
-                <span class="phase-intent">Submit · Review · Communicate</span>
+                <h3>Launch registration and filing</h3>
+                <span class="phase-intent">Register · File · Validate</span>
                 <ul>
-                  <li>Applications and filings</li>
-                  <li>Documents and payments</li>
-                  <li>Review queues and notices</li>
-                  <li>Public verification baseline</li>
+                  <li>Filer and committee registration</li>
+                  <li>Financial activity and disclosure reports</li>
+                  <li>Validation, amendments, and notices</li>
+                  <li>Public disclosure baseline</li>
                 </ul>
               </div>
             </li>
@@ -1393,13 +1405,13 @@
               <div class="phase-marker"><span>3</span></div>
               <div class="phase-card">
                 <p>Compliance operations</p>
-                <h3>Extend case and field work</h3>
-                <span class="phase-intent">Monitor · Inspect · Resolve</span>
+                <h3>Extend audit and enforcement</h3>
+                <span class="phase-intent">Audit · Investigate · Resolve</span>
                 <ul>
                   <li>Compliance calendars</li>
-                  <li>Complaints and inspections</li>
-                  <li>Enforcement case paths</li>
-                  <li>Leadership dashboards</li>
+                  <li>Audit and deficiency workflows</li>
+                  <li>Complaints and enforcement cases</li>
+                  <li>Penalties, hearings, and appeals</li>
                 </ul>
               </div>
             </li>
@@ -1517,8 +1529,8 @@
             >
           </a>
           <p>
-            A configurable product for digital filing, agency operations,
-            compliance, and public disclosure.
+            A configurable product for filer registration, financial reporting,
+            agency review, compliance, and public disclosure.
           </p>
         </div>
         <div class="footer-links">

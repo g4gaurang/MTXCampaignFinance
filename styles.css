@@ -1092,7 +1092,7 @@ h3 {
   font-size: 3rem;
 }
 
-.issue-lines {
+.validation-lines {
   position: absolute;
   display: flex;
   width: 18rem;
@@ -1105,14 +1105,14 @@ h3 {
   transform: translate(4rem, 5rem);
 }
 
-.issue-lines b {
+.validation-lines b {
   font-size: 0.8rem;
 }
-.issue-lines span {
+.validation-lines span {
   color: var(--muted);
   font-size: 0.65rem;
 }
-.issue-lines em {
+.validation-lines em {
   margin-top: 0.6rem;
   color: var(--green);
   font-size: 0.65rem;
@@ -2529,7 +2529,7 @@ h3 {
     height: 12rem;
   }
 
-  .issue-lines {
+  .validation-lines {
     transform: translate(2rem, 4rem) scale(0.8);
   }
 
